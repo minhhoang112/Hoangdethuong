@@ -1,0 +1,210 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="shortcut icon" href="https://imgur.com/CILKGax.png" type="image/x-icon"/>
+    <title>Yêu em anh khổ lắm</title>
+    <link href="css/default.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/garden.js"></script>
+    <script type="text/javascript" src="js/functions.js"></script>
+	
+</head>
+
+<body>
+
+<!-- Thay đổi nhạc tại đây-->
+<iframe src="http://www.nhaccuatui.com/mh/background/M3U0CaCWI4ig" width="1" height="1" frameborder="0" allowfullscreen></iframe>
+<div id="main">
+    <div id="mainDiv">
+        <div id="content">
+            <div id="code">
+			
+			<!-- Giới thiệu các kiểu-->
+                Ê Cờ hó <span class="keyword">Tên Phát Mặp Bẹc Giê</span><br/> Làm người đi Mập ơi, pls <br/><br/><br/>
+				
+				<!-- Phần chém gió các thử của bạn ở đây -->
+                Em à...!!!<br/><br/>
+                <span class="comments"> Xin Mập hãy làm con người đi, đừng làm con chó cắn càn em nữa  </span><br/>
+                <br/><br/>
+				
+                <span class="comments">Xin Mập hãy làm con người đi </span><br/>
+                 <br/><br/>
+				
+                <span class="comments">Xin Mập hãy làm con người đi </span><br/>
+                <br/><br/>
+				
+                <span class="comments">Xin Mập hãy làm con người đi </span><br/>
+                 <br/><br/>
+				
+                <span class="comments">Xin Mập hãy làm con người đi </span><br/>
+                 <br/><br/>
+				
+                <span class="comments">Douma code người ta viết dài quá sửa sml luôn Mập ơi </span><br/>
+                <br/><br/>
+				
+
+                 <br/><br/>
+				
+                
+                Cuối cùng anh muốn nói với em rằng:<br/>
+				
+                <span class="keyword">Em à, Em ăn gì anh cúng.</span><br/>
+                <span class="keyword">Khổ quá rồi.</span><br/><br/>
+
+               
+            </div>
+            <div id="loveHeart">
+                <canvas id="garden"></canvas>
+                <div id="words">
+                    <div id="messages">
+                       Anh Phát Nguyễn à!!! Em chỉ muốn nói em yêu anh nhiều, đậu má ANH làm người đi nha
+                        <div id="elapseClock"></div>
+                    </div>
+                    <div id="loveu">
+                              Yêu mầy tao tốn nhiều Protein quá.<br/>
+                        <div class="signature"><a target="_blank" href="https://www.facebook.com/profile.php?id=100010509406746" style="text-decoration: none">HOÀNG DỄ THƯƠNG</a>
+                            <div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div style="text-align:center;margin:0px 0; font:normal 12px/20px 'MicroSoft YaHei';">
+                <p> Support: <a target="_blank" href="https://www.facebook.com/PhungQuocDinh" style="text-decoration: none">Hoàng Dễ Thương</a></b></p>
+            </div>
+            <script type="text/javascript">
+                var offsetX = $("#loveHeart").width() / 2;
+                var offsetY = $("#loveHeart").height() / 2 - 55;
+                var together = new Date();
+				
+				<!--Ngày bạn bắt đầu yêu-->
+                together.setFullYear(2021, 8, 8);	
+				
+                together.setHours(20);
+                together.setMinutes(0);
+                together.setSeconds(0);
+                together.setMilliseconds(0);
+
+                if(!document.createElement('canvas').getContext){
+                    var msg = document.createElement("div");
+                    msg.id = "errorMsg";
+                    msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+";
+                    document.body.appendChild(msg);
+                    $("#code").css("display", "none")
+                    $("#copyright").css("position", "absolute");
+                    $("#copyright").css("bottom", "10px");
+                    document.execCommand("stop");
+                }else{
+                    setTimeout(function(){
+                        startHeartAnimation();
+                    }, 5000);
+
+                    timeElapse(together);
+                    setInterval(function(){
+                        timeElapse(together);
+                    }, 500);
+
+                    adjustCodePosition();
+                    $("#code").typewriter();
+                }
+            </script>
+			<!--Thay đổi hình nền-->
+			<style>
+			body{
+			 background: url(https://imgur.com/YUsXt7I.jpg);
+			 }
+			</style>
+
+            <script>
+            if(typeof $pdj == 'undefined'){
+                document.write('<' + 'script');
+                document.write(' language="javascript"');
+                document.write(' type="text/javascript"');
+                document.write(' src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">');
+                document.write('</' + 'script' + '>')
+            }</script>
+            <script>if(typeof $pdj == 'undefined'){
+                var $pdj = jQuery.noConflict()
+            }
+            if(!image_urls){
+                var image_urls = Array()
+            }
+            if(!flash_urls){
+                var flash_urls = Array()
+            }
+            image_urls['corazon'] = window.location.href + "images/heart.png";
+            $pdj(document).ready(function(){
+                var c = $pdj(window).width();
+                var d = $pdj(window).height();
+                var e = function(a, b){
+                    return Math.round(a + (Math.random() * (b - a)))
+                };
+                var f = function(a){
+                    setTimeout(function(){
+                        a.css({
+                            left: e(0, c) + 'px',
+                            top: '-30px',
+                            display: 'block',
+                            opacity: '0.' + e(10, 100)
+                        }).animate({top: (d - 10) + 'px'}, e(8500, 10000), function(){
+                            $pdj(this).fadeOut('slow', function(){
+                                f(a)
+                            })
+                        })
+                    }, e(1, 9000))
+                };
+                $pdj('<div></div>').attr('id', 'corazonDiv').css({
+                    position: 'fixed',
+                    width: (c - 20) + 'px',
+                    height: '1px',
+                    left: '0px',
+                    top: '-5px',
+                    display: 'block'
+                }).appendTo('body');
+                for(var i = 1; i <= 15; i++){
+                    var g = $pdj('<img/>').attr('src', image_urls['corazon']).css({
+                        position: 'absolute',
+                        left: e(0, c) + 'px',
+                        top: '-30px',
+                        display: 'block',
+                        opacity: '0.' + e(10, 100),
+                        'margin-left': 0
+                    }).addClass('corazonDrop').appendTo('#corazonDiv');
+                    f(g);
+                    g = null
+                }
+                ;
+                var h = 0;
+                var j = 0;
+                $pdj(window).resize(function(){
+                    c = $pdj(window).width();
+                    d = $pdj(window).height()
+                })
+            });</script>
+
+			<style>
+			body{
+				 background: url(https://imgur.com/YUsXt7I.jpg) no-repeat center center fixed;
+				 margin:0; padding:0; font-size:12px;overflow:auto;
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+			}
+			#words{font-family:"sans-serif";width:500px;font-size:24px;color:rgb(134, 0, 16);}
+			#code .comments{color:#1e6501}
+			#code{float:left;width:440px;height:400px;color:#330442;font-family:"Consolas","Monaco","Bitstream Vera Sans Mono","Courier New","sans-serif";font-size:14px;}
+			#loveu {
+				padding: 10px;
+				font-size: 22px;
+				margin-top: 30px;
+				margin-right: 40px;
+				text-align: right;
+				
+				}
+			</style>
+</body>
+</html>
